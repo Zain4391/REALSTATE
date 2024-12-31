@@ -2,6 +2,7 @@
   "name": "realestate",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +10,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.47.10",
+    "dotenv": "^16.4.7",
+    "morgan": "^1.10.0",
+    "next": "15.1.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.3"
+    "realestate": "file:"
   },
   "devDependencies": {
     "postcss": "^8",
